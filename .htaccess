@@ -1,0 +1,4 @@
+AddDefaultCharset UTF-8
+Options +MultiViews
+RewriteEngine On
+RewriteRule http-bind/ http://ec2-54-251-37-12.ap-southeast-1.compute.amazonaws.com:7070/http-bind/ [P]
